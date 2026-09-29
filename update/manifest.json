@@ -1,18 +1,19 @@
 {
-  "version": "1.3.1",
+  "version": "1.2.1",
   "publishedAt": "2026-09-29",
   "notes": [
-    "新增：轻量增量更新，更新只需下载约 0.6MB 而非 130MB",
+    "新增：轻量增量更新，只需下载约 0.6MB，不用再下 130MB 安装包",
     "新增：更新弹窗展示云端填写的「更新内容」",
     "优化：检查更新绕开 CDN 缓存，改完清单立即生效",
     "优化：更新失败提示改为中文，并提示联系开发者",
-    "调整：主窗口最小宽度放宽到 1500"
+    "调整：主窗口最小宽度调整为 1300",
+    "调整：激活窗口「退出 PRO」按钮默认隐藏（调试开关下可重现）"
   ],
   "force": false,
   "codePackage": {
-    "url": "https://github.com/liruikai/vfx-studio/releases/app-1.3.1.zip",
-    "sha256": "4808bb0fdd6909f5002ac09fbe12de505441a7347c9b780576fdfe003d61615c",
-    "size": 608839,
+    "url": "https://github.com/liruikai/vfx-studio/update/releases/app-1.2.1.zip",
+    "sha256": "8dc1b7cce539989d8acebb60c60a1141d49cc196913019478cf24431df1243fe",
+    "size": 608841,
     "runtimeTag": "r1"
   }
 }
