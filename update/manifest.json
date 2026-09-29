@@ -1,16 +1,14 @@
 {
-  "version": "1.2.8",
+  "version": "1.2.9",
   "publishedAt": "2026-09-29",
   "notes": [
-    "优化：AI 学习按钮改为「更新学习资料」，更贴合它的实际作用",
-    "优化：导出按钮改为「导出成片视频」，并加上向下箭头图标，和透明层 MOV 按钮统一",
-    "优化：顶栏「AI 自动编排」与其设置按钮整体缩小一点，视觉更协调"
+    "优化：顶栏「AI 自动编排」与旁边的设置按钮之间的空隙距离缩小，两组按钮贴得更紧"
   ],
   "force": false,
   "codePackage": {
-    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.8.zip",
-    "sha256": "3c3772d5c1916c5c2f2e3cd328166df6156ab97695309b112dc1e4550f022a49",
-    "size": 610546,
+    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.9.zip",
+    "sha256": "54222cffe80f7d8417f09ff42565dbfa85a8e4219c1944b788eb58d0b9dcff86",
+    "size": 611065,
     "runtimeTag": "r1"
   }
 }
