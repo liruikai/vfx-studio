@@ -4,7 +4,7 @@
   "notes": [
     "修复：点击「版本与激活」窗口的「完成 / 关闭」按钮时，会连带把整个客户端一起关闭的问题（激活窗口改为隐藏而非销毁，不再级联关闭主窗口）"
   ],
-  "force": false,
+  "force": true,
   "codePackage": {
     "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.4.zip",
     "sha256": "deac9480d7ea94e9f39e50f7c35e4adb2d0eb7a3560b471e6848b4e4c50f2efb",
