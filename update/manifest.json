@@ -1,19 +1,15 @@
 {
-  "version": "1.2.2",
+  "version": "1.2.3",
   "publishedAt": "2026-09-29",
   "notes": [
-    "修复：激活专业版后升级不再退回基础版（重要）",
-    "修复：左栏底部版本号现在会跟随更新显示",
-    "新增：轻量增量更新，只需下载约 0.6MB，不用再下 130MB 安装包",
-    "新增：更新弹窗展示云端填写的「更新内容」",
-    "优化：检查更新绕开 CDN 缓存，改完清单立即生效",
-    "优化：更新失败提示改为中文，并提示联系开发者"
+    "修复：更新后左栏版本号不随新版本变化的问题（改为动态读取应用版本）",
+    "修复：PRO 专业版在系统更新/重装后误清回基础版（机器码改为绑定系统级硬件指纹 MachineGuid，不再受应用版本号影响）"
   ],
   "force": false,
   "codePackage": {
-    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.2.zip",
-    "sha256": "7331ca2c28147ec4960c882921e8fcd0f8d39651c00eabc0b735d08512b6f99f",
-    "size": 609730,
+    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.3.zip",
+    "sha256": "7aff93dce25732972ebd4cd36dcb2a602e1c0c98db36512662ffc1df7fd168b4",
+    "size": 609729,
     "runtimeTag": "r1"
   }
 }
