@@ -1,17 +1,18 @@
 {
-  "version": "1.2.6",
+  "version": "1.2.7",
   "publishedAt": "2026-09-29",
   "notes": [
-    "新增：每次打开客户端都会检查更新，有新版本时自动弹窗提示",
-    "新增：三条杠入口与「检查更新」菜单显示红点 +「有新版本」，菜单收起也能看到",
+    "新增：每次打开客户端都会自动检查更新，有新版本时自动弹窗提示",
+    "新增：三条杠入口与「检查更新」菜单显示红点 +「有新版本」标识（菜单收起也能看到）",
     "优化：点了「跳过此版本」后该版本不再自动弹窗；红点保留，需要时手动检查即可安装",
-    "修复：更新弹窗现正确消费 manifest 的 force 字段（force=true 时强制更新，不可跳过/关闭）"
+    "优化：后台自动检查更新时入口不再显示「正在检查…」或变灰，仅在手动点击时才有该反馈",
+    "优化：无网络环境下后台检查静默失败、不打扰；手动检查会给出友好的中文错误提示"
   ],
   "force": false,
   "codePackage": {
-    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.6.zip",
-    "sha256": "d62d9f4ec90bfce0431afc880b49d375abd43f70d607bc9fbb3338c0b7d1fe8d",
-    "size": 610474,
+    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.7.zip",
+    "sha256": "6c5395fdf92f45075bd4e284e7869fa3843746328e50e3d87ff596fec3a515c9",
+    "size": 610506,
     "runtimeTag": "r1"
   }
 }
