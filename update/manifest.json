@@ -1,15 +1,14 @@
 {
-  "version": "1.2.3",
+  "version": "1.2.4",
   "publishedAt": "2026-09-29",
   "notes": [
-    "修复：更新后左栏版本号不随新版本变化的问题（改为动态读取应用版本）",
-    "修复：PRO 专业版在系统更新/重装后误清回基础版（机器码改为绑定系统级硬件指纹 MachineGuid，不再受应用版本号影响）"
+    "修复：点击「版本与激活」窗口的「完成 / 关闭」按钮时，会连带把整个客户端一起关闭的问题（激活窗口改为隐藏而非销毁，不再级联关闭主窗口）"
   ],
   "force": false,
   "codePackage": {
-    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.3.zip",
-    "sha256": "7aff93dce25732972ebd4cd36dcb2a602e1c0c98db36512662ffc1df7fd168b4",
-    "size": 609729,
+    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.4.zip",
+    "sha256": "deac9480d7ea94e9f39e50f7c35e4adb2d0eb7a3560b471e6848b4e4c50f2efb",
+    "size": 610236,
     "runtimeTag": "r1"
   }
 }
