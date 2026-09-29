@@ -1,18 +1,16 @@
 {
-  "version": "1.2.7",
+  "version": "1.2.8",
   "publishedAt": "2026-09-29",
   "notes": [
-    "新增：每次打开客户端都会自动检查更新，有新版本时自动弹窗提示",
-    "新增：三条杠入口与「检查更新」菜单显示红点 +「有新版本」标识（菜单收起也能看到）",
-    "优化：点了「跳过此版本」后该版本不再自动弹窗；红点保留，需要时手动检查即可安装",
-    "优化：后台自动检查更新时入口不再显示「正在检查…」或变灰，仅在手动点击时才有该反馈",
-    "优化：无网络环境下后台检查静默失败、不打扰；手动检查会给出友好的中文错误提示"
+    "优化：AI 学习按钮改为「更新学习资料」，更贴合它的实际作用",
+    "优化：导出按钮改为「导出成片视频」，并加上向下箭头图标，和透明层 MOV 按钮统一",
+    "优化：顶栏「AI 自动编排」与其设置按钮整体缩小一点，视觉更协调"
   ],
   "force": false,
   "codePackage": {
-    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.7.zip",
-    "sha256": "6c5395fdf92f45075bd4e284e7869fa3843746328e50e3d87ff596fec3a515c9",
-    "size": 610506,
+    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.8.zip",
+    "sha256": "3c3772d5c1916c5c2f2e3cd328166df6156ab97695309b112dc1e4550f022a49",
+    "size": 610546,
     "runtimeTag": "r1"
   }
 }
