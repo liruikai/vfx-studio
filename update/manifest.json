@@ -7,8 +7,8 @@
   "force": false,
   "codePackage": {
     "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.9.zip",
-    "sha256": "54222cffe80f7d8417f09ff42565dbfa85a8e4219c1944b788eb58d0b9dcff86",
-    "size": 611065,
+    "sha256": "ad684c2682570d12f19d6af1e0ac284ecb73a8d0fc452b4088820d3385960c47",
+    "size": 611064,
     "runtimeTag": "r1"
   }
 }
