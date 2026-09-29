@@ -11,7 +11,7 @@
   ],
   "force": false,
   "codePackage": {
-    "url": "https://github.com/liruikai/vfx-studio/blob/main/update/releases/app-1.2.1.zip",
+    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.1.zip",
     "sha256": "8dc1b7cce539989d8acebb60c60a1141d49cc196913019478cf24431df1243fe",
     "size": 608841,
     "runtimeTag": "r1"
