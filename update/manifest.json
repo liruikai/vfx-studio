@@ -1,14 +1,15 @@
 {
-  "version": "1.2.4",
+  "version": "1.2.5",
   "publishedAt": "2026-09-29",
   "notes": [
-    "修复：点击「版本与激活」窗口的「完成 / 关闭」按钮时，会连带把整个客户端一起关闭的问题（激活窗口改为隐藏而非销毁，不再级联关闭主窗口）"
+    "修复：更新弹窗现正确消费 manifest 的 force 字段——force=true 时强制更新（隐藏「跳过此版本/稍后提醒」，点背景与✕不可关闭，仅保留「立即更新」）",
+    "修复：此前 force=true 弹窗与正常更新无区别（字段被丢弃），现已打通"
   ],
   "force": true,
   "codePackage": {
-    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.4.zip",
-    "sha256": "deac9480d7ea94e9f39e50f7c35e4adb2d0eb7a3560b471e6848b4e4c50f2efb",
-    "size": 610236,
+    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.2.5.zip",
+    "sha256": "145e68fdcb27fbbfcf163110a63ec08410899b66376a867507f52db425f12712",
+    "size": 610352,
     "runtimeTag": "r1"
   }
 }
