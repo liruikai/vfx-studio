@@ -1,16 +1,20 @@
 {
-  "version": "1.3.2",
-  "publishedAt": "2026-10-05",
+  "version": "1.3.3",
+  "publishedAt": "2026-10-07",
   "notes": [
-    "优化【数据柱图】：纵轴刻度数值放大并加粗，与横轴年份一致清晰、易读",
-    "新增【数据柱图】参数：背景颜色 + 背景透明度（可垫纯色底板，在花背景视频 / 9:16 上提高可读性）",
-    "新增【数据饼图】参数：背景颜色 + 背景透明度（同上）"
+    "新增【信息弹幕】卡片（PRO）：满屏错落评论卡飞入，支持拖拽调整显示区域与整体缩放",
+    "新增【卡通进度条】卡片（PRO）：贴底分段进度条 + 内置奔跑角色骑在进度前沿",
+    "新增【滚轮数字】与【环形进度】数据卡片（PRO）：里程表式逐位滚动、分段环形进度 + 刻度",
+    "新增【胶囊文本】卡片（PRO）：三段彩字胶囊自下而上滑入",
+    "时间轴：移动或缩放卡片靠近其它轨道卡片起止时，显示剪映式对齐竖线并自动吸附",
+    "参数面板：需自备图片 / 视频素材的卡片显示「需自备素材」提示（可选素材不再提示）",
+    "修复：9:16 竖屏比例下部分卡片（如玻璃数据柱图）溢出画面"
   ],
   "force": false,
   "codePackage": {
-    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.3.2.zip",
-    "sha256": "b65d78f0534eed113ee1150827f41fbf29cfac0a38357860f6ab150171b909f5",
-    "size": 790927,
+    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-1.3.3.zip",
+    "sha256": "7f92102d68e3c5803c7e2fa7f28bf42bbf6a3f9b8be20cf231a784451227ee64",
+    "size": 1028802,
     "runtimeTag": "r1"
   }
 }
