@@ -1,18 +1,23 @@
 {
-  "version": "2.8.0",
-  "publishedAt": "2026-11-01",
+  "version": "3.2.0",
+  "publishedAt": "2026-11-12",
   "notes": [
-    "字幕卡升级：中文字号严格按设定值输出，不再自动缩小；支持按时间段拆条，长句换行更清爽美观（口播文稿字幕 / 字幕2 同步生效）",
-    "新增 3D 渲染卡（three-geo-1，PRO）：参数化户型沙盘、内置几何体，WebGL 实时预览并支持导出",
-    "动效分类优化：「动画片段」改名为「像素/3D」，「3D几何」改名为「3D渲染」并归入该分类",
-    "修复：全新安装用户首次启动后完整性校验误报「校验未通过」、界面无法进入的问题（根因为打包时 package.json 被重写）",
-    "安装包瘦身：清理已废弃人像遮挡功能的残留依赖，安装包体积明显下降"
+    "版本升级至 3.2.0（桌面客户端）。"
   ],
   "force": false,
   "codePackage": {
-    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-2.8.0.zip",
-    "sha256": "61b54ce832b63d9d4e1359647d6652fee0e7214333086cd41bb73fbb9f270f92",
-    "size": 2632746,
+    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-3.2.0.zip",
+    "sha256": "b90f5a0cb5defc59d488a9a85eb84eff9b2caae56cab3979c8a4e979c43e78ce",
+    "size": 3165359,
     "runtimeTag": "r1"
-  }
+  },
+  "history": [
+    "3.1.0",
+    "3.0.0",
+    "2.9.0",
+    "2.8.9",
+    "2.8.8",
+    "2.8.7",
+    "2.8.6"
+  ]
 }
