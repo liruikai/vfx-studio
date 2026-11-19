@@ -1,17 +1,23 @@
 {
-  "version": "3.2.0",
-  "publishedAt": "2026-11-12",
+  "version": "3.3.0",
+  "publishedAt": "2026-11-19",
   "notes": [
-    "版本升级至 3.2.0（桌面客户端）。"
+    "字幕稿：新增「清空标记字」按钮，逐句行高进一步压缩，编辑更紧凑",
+    "字幕稿：右下角拖拽改为整窗联动缩放，行号/文稿框/手柄同步，手柄样式统一为一套细斜线",
+    "字幕稿板块、基础板块与字幕卡增加内高光和投影，层次更清晰",
+    "修复：字幕卡试播期间点击其它区域立即停止临时播放，另点字幕卡仍重新试播",
+    "修复：字幕显示进度与字幕轨对齐、字幕卡置顶、开头几秒字幕正常显示",
+    "修复：草稿标记区间数据异常导致的开档卡顿/黑屏，草稿自动保存更稳"
   ],
   "force": false,
   "codePackage": {
-    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-3.2.0.zip",
-    "sha256": "b90f5a0cb5defc59d488a9a85eb84eff9b2caae56cab3979c8a4e979c43e78ce",
-    "size": 3165359,
+    "url": "https://raw.githubusercontent.com/liruikai/vfx-studio/main/update/releases/app-3.3.0.zip",
+    "sha256": "31d61bf4e56879099472553f749d4e76c79f92bfc519506e09320a5283dc6365",
+    "size": 3442841,
     "runtimeTag": "r1"
   },
   "history": [
+    "3.2.0",
     "3.1.0",
     "3.0.0",
     "2.9.0",
